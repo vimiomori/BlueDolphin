@@ -1,0 +1,21 @@
+{
+    "name": "bluedolphin",
+    "displayName": "BlueDolphin",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue Dolphin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blue Dolphin-color-theme.json"
+            }
+        ]
+    }
+}
