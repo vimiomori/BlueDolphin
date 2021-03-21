@@ -1,6 +1,6 @@
 {
     "name": "bluedolphin",
-    "displayName": "BlueDolphin Theme",
+    "displayName": "Blue Dolphin Color Theme",
     "description": "",
     "version": "0.1.0",
     "publisher": "21BlueDolphins",
@@ -22,5 +22,16 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/vimiomori/BlueDolphin.git"
+    },
+    "icon": "logo-round.png",
+    "galleryBanner": {
+        "color": "#002b3f",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/vimiomori/BlueDolphin/blob/main/README.md",
+    "bugs": {
+      "url": "https://github.com/vimiomori/BlueDolphin/issues",
+      "email": "vivian.muchen@gmail.com"
     }
 }
