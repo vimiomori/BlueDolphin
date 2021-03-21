@@ -38,4 +38,5 @@ To get the best syntax highlighting experience with `.py` files, follow these st
 This theme is released under the [MIT License](https://github.com/vimiomori/blob/main/license.md).
 
 ## 🦋 *Credits* 🦋
-Designed by **[Vimiomori](https://github.com/vimiomori)** 🐬
+Blue Dolphin Theme designed by **[Vi Hsieh](https://github.com/vimiomori)** 🐬
+Blue Dolphin logos and banner designed by **[Scott Coffrin](https://github.com/scootyboots)**
