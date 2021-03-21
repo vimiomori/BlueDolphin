@@ -41,4 +41,5 @@ This theme is released under the [MIT License](https://github.com/vimiomori/Blue
 
 ## 🦋 *Credits* 🦋
 Blue Dolphin Theme designed by **[Vi Hsieh](https://github.com/vimiomori)** 🐬
+
 Blue Dolphin logos and banner designed by **[Scott Coffrin](https://github.com/scootyboots)**
