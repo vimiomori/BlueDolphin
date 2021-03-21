@@ -2,7 +2,7 @@
     "name": "bluedolphin",
     "displayName": "Blue Dolphin Color Theme",
     "description": "",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "21BlueDolphins",
     "engines": {
         "vscode": "^1.54.0"
@@ -31,7 +31,7 @@
     "license": "SEE LICENSE IN LICENSE",
     "homepage": "https://github.com/vimiomori/BlueDolphin/blob/main/README.md",
     "bugs": {
-      "url": "https://github.com/vimiomori/BlueDolphin/issues",
-      "email": "vivian.muchen@gmail.com"
+        "url": "https://github.com/vimiomori/BlueDolphin/issues",
+        "email": "vivian.muchen@gmail.com"
     }
 }
