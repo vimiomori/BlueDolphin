@@ -10,6 +10,16 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark",
+        "blue",
+        "blue dolphin",
+        "pastel",
+        "python",
+        "material",
+        "material theme"
+    ],
     "contributes": {
         "themes": [
             {
