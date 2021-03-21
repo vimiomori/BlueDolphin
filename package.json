@@ -3,7 +3,7 @@
     "displayName": "Blue Dolphin Color Theme",
     "author": "Vi Hsieh <vivian.muchen@gmail.com>",
     "description": "A dark theme with blue and pastel accents.",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "publisher": "21BlueDolphins",
     "engines": {
         "vscode": "^1.54.0"
