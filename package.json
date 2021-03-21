@@ -2,7 +2,7 @@
     "name": "bluedolphin",
     "displayName": "Blue Dolphin Color Theme",
     "description": "A dark theme with blue and pastel accents.",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "publisher": "21BlueDolphins",
     "engines": {
         "vscode": "^1.54.0"
