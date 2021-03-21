@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🐬 Blue Dolphin Theme 🐬
+<a href="https://github.com/vimiomori/BlueDolphin/">
+    <img alt="Blue Dolphin Banner" src="https://i.imgur.com/btE5LM7.png">
+</a>
 
 A blue and pastels theme inspired by [Palenight](https://github.com/whizkydee/vscode-palenight-theme) for Visual Studio Code.
 
@@ -35,7 +37,7 @@ To get the best syntax highlighting experience with `.py` files, follow these st
 
 ## 📜 *License* 📜
 
-This theme is released under the [MIT License](https://github.com/vimiomori/blob/main/license.md).
+This theme is released under the [MIT License](https://github.com/vimiomori/BlueDolphin/blob/main/license.md).
 
 ## 🦋 *Credits* 🦋
 Blue Dolphin Theme designed by **[Vi Hsieh](https://github.com/vimiomori)** 🐬
