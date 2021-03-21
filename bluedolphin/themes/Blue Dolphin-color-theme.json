@@ -537,10 +537,38 @@
 		//"window.inactiveBorder": null
 	},
 	"semanticTokenColors": {
-		"function.declaration:tsx": {
-			"foreground": "#FF0000",
-			"fontStyle": "bold"
-		}
+		// "variable.readonly:python": "#fcb8b8",
+		// "property": {
+		// 	"foreground": "#fffed1",
+		// },
+		// "parameter:python": "#C5F1FF",
+		// "function.builtin:python": {
+		// 	"foreground": "#fcb8b8",
+		// 	"fontStyle": "italic"
+		// },
+		"magicFunction:python": {
+			"foreground": "#fcb8b8",
+			"fontStyle": "italic"
+		},
+		// "class.builtin:python": {
+		// 	"foreground":"#fcb8b8",
+		// 	"fontStyle": "italic"
+		// },
+		"class.declaration:python": {
+			"fontStyle": "bold italic",
+			"foreground": "#6AFFB4",
+		},
+		// "method:python": {
+		// 	"foreground": "#f4cdfd",
+		// },
+		// "class:python": "#88ffc3",
+		// "module:python": "#f4cdfd",
+		// "*.decorator:python": "#fffed1",
+		"*.typeHint:python": {
+			"fontStyle": "italic",
+			"foreground": "#6AFFB4"
+		},
+		// "*.typeHintComment:python": "#aaaaaa"
 	},
 	"tokenColors": [
 		{
@@ -579,6 +607,7 @@
 		{
 			"scope": [
 				"variable.other.constant.python",
+				"constant.other.caps.python"
 			],	
 			"settings": {
 				"foreground": "#ffaaaa"
@@ -843,7 +872,8 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#C5F1FF"
+				"foreground": "#FCB8B8",
+				// "foreground": "#C5F1FF"
 			}
 		},
 		{
@@ -994,6 +1024,16 @@
 				"foreground": "#9CDCFE"
 			}
 		},
+		// {
+		// 	"scope": [
+		// 		"variable.other.enummember",
+		// 		"variable.other.readwrite.alias",
+		// 		"variable.other.readwrite"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f2d6ff"
+		// 	}
+		// },
 		{
 			"scope": [
 				"variable.other.enummember",
@@ -1001,7 +1041,17 @@
 				"variable.other.readwrite"
 			],
 			"settings": {
-				"foreground": "#f2d6ff"
+				"foreground": "#fffce2"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.enummember.python",
+				"variable.other.readwrite.alias.python",
+				"variable.other.readwrite.python"
+			],
+			"settings": {
+				"foreground": "#f6ffe2"
 			}
 		},
 		{
@@ -1161,13 +1211,12 @@
 				"variable.parameter.function"
 			],
 			"settings": {
-				"foreground": "#C5F1FF"
+				"foreground": "#c7c8ff"
 			}
 		},
 		{
 			"scope": [
 				"variable.parameter.function-call",
-				"variable.other.property"
 			],
 			"settings": {
 				"foreground": "#c7c8ff"
@@ -1178,7 +1227,8 @@
 				"meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#C5F1FF"
+				"foreground": "#c7c8ff"
+				// "foreground": "#C5F1FF"
 				// "foreground": "#F4CDFD"
 			}
 		},
@@ -1274,6 +1324,9 @@
 				"keyword.operator.increment",
 				"keyword.operator.decrement",
 				"keyword.operator.ellipsis",
+				"punctuation.parenthesis.begin",
+				"punctuation.parenthesis.end",
+				"punctuation.separator.annotation.python",
 				"punctuation.definition.dict.begin",
 				"punctuation.definition.dict.end",
 				"punctuation.definition.list.begin",
@@ -1289,6 +1342,7 @@
 				"punctuation.separator.parameters",
 				"punctuation.separator.key-value",
 				"punctuation.separator.comma",
+				"punctuation.separator.dict.python",
 				"punctuation.section.parens",
 				"punctuation.section.array",
 				"punctuation.definition.block",
@@ -1335,14 +1389,12 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#8bfbff"
 			}
 		},
 		{
 			"scope": [
 				"keyword.operator.word.python",
-				// "keyword.operator.logical.python",
 				"keyword.operator.logical",
 				"keyword.operator.address",
 				"entity.name.section.group-title.ini"
@@ -1356,8 +1408,16 @@
 				"keyword.control.flow.python"
 			],
 			"settings": {
-				"foreground": "#F4CDFD",
+				"foreground": "#85C4FF",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.logical.python",
+			],
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -1379,7 +1439,7 @@
 		},
 		{
 			"scope": [
-				"entity.name.type.class"
+				// "entity.name.type.class"
 			],
 			"settings": {
 				"foreground": "#83F9FD",

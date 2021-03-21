@@ -1,8 +1,9 @@
 {
     "name": "bluedolphin",
-    "displayName": "BlueDolphin",
+    "displayName": "BlueDolphin Theme",
     "description": "",
     "version": "0.0.1",
+    "publisher": "21BlueDolphins",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -17,5 +18,9 @@
                 "path": "./themes/Blue Dolphin-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vimiomori/BlueDolphin.git"
     }
 }
